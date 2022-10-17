@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 50 50"
+   height="50mm"
+   width="50mm"
+   sodipodi:docname="hruler.svg"
+   inkscape:export-filename="/home/pauek/Assignatures/Flutter/src/all_samples/assets/lamp/hruler.png"
+   inkscape:export-xdpi="76.199997"
+   inkscape:export-ydpi="76.199997"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1573"
+     inkscape:window-height="1292"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="2.4976667"
+     inkscape:cx="118.36473"
+     inkscape:cy="67.68889"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleOutS"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.2)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path1023" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path908" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path890" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-247)"
+     id="layer1">
+    <path
+       id="path1378"
+       d="m 41.752116,282.40563 -2.71767,-1.79421 v 1.16169 H 7.9789902 v 1.26556 H 39.034446 v 1.16117 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25300001pt;stroke-opacity:1" />
+    <path
+       id="path1374"
+       d="m 45.402806,263.78248 c 0,-0.82934 -0.66772,-1.49707 -1.49706,-1.49707 h -2.54507 v 10.93319 h -1.74614 v -10.93319 h -1.97042 v 7.54838 h -1.74822 v -7.54838 h -1.97042 v 10.93319 h -1.74615 v -10.93319 h -1.97094 v 7.54838 h -1.74614 v -7.54838 h -1.97249 v 10.93319 h -1.74615 v -10.93319 h -1.97094 v 7.54838 h -1.74563 v -7.54838 h -1.97094 v 10.93319 h -1.74614 v -10.93319 h -1.97249 v 7.54838 h -1.74615 v -7.54838 H 6.2811686 c -0.82934,0 -1.49706,0.66773 -1.49706,1.49707 v 13.97175 c 0,0.82935 0.66772,1.49707 1.49706,1.49707 H 43.905746 c 0.82934,0 1.49706,-0.66772 1.49706,-1.49707 z m -33.91886,6.88537 c 0,1.36098 -1.117419,2.48046 -2.4783975,2.48046 -1.3609799,0 -2.4789099,-1.11948 -2.4789099,-2.48046 0,-1.36098 1.11793,-2.47841 2.4789099,-2.47841 1.3609785,0 2.4783975,1.11743 2.4783975,2.47841 z m -1.365289,0 c 0,-0.62328 -0.4898288,-1.11311 -1.1131085,-1.11311 -0.6232797,0 -1.1136194,0.48983 -1.1136194,1.11311 0,0.62327 0.4903397,1.11517 1.1136194,1.11517 0.6232797,0 1.1131085,-0.4919 1.1131085,-1.11517 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25300001pt;stroke-opacity:1" />
+  </g>
+</svg>

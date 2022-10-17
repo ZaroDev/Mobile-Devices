@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 50 50"
+   height="50mm"
+   width="50mm"
+   sodipodi:docname="lamp.svg"
+   inkscape:export-filename="/home/pauek/Assignatures/Flutter/src/all_samples/assets/lamp/lamp.png"
+   inkscape:export-xdpi="76"
+   inkscape:export-ydpi="76"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1092"
+     inkscape:window-height="810"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="1.2488333"
+     inkscape:cx="94.488189"
+     inkscape:cy="94.488189"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-247)"
+     id="layer1">
+    <path
+       id="path2533"
+       d="m 23.651437,253.68641 v 11.24794 c -8.741246,0.4222 -15.6148066,7.62662 -15.6258928,16.37805 0.00668,0.61273 0.04765,1.22462 0.1227308,1.83277 h 33.530188 c 0.07117,-0.60837 0.108242,-1.22025 0.111036,-1.83277 -0.0049,-8.75595 -6.880134,-15.96733 -15.625894,-16.38975 v -11.23624 z"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50775796;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path820"
+       d="m 17.59997,284.78739 c 0.438621,3.70361 3.576193,6.49496 7.305682,6.49952 3.730916,-0.002 6.870632,-2.7945 7.309421,-6.49952 z"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50775796;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
