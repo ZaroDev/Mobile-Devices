@@ -3,7 +3,8 @@ import 'package:movie_app/models/movie.dart';
 import 'package:movie_app/widgets/actor_box.dart';
 import 'package:movie_app/widgets/description.dart';
 import 'package:movie_app/widgets/favourite_button.dart';
-import 'package:movie_app/widgets/movie_portrair.dart';
+import 'package:movie_app/widgets/movie_portrait.dart';
+
 import 'package:movie_app/widgets/movie_specs.dart';
 import 'package:movie_app/widgets/movie_title.dart';
 import 'package:movie_app/widgets/play_button.dart';
@@ -22,14 +23,13 @@ class MovieScreen extends StatelessWidget {
     return Provider.value(
       value: product,
       child: Scaffold(
-        body: Stack(
-          children: [
-            Container(
-              decoration: backgroundImage(),
-              child: Container(
-                decoration: backgroundGradient(),
-                child: SingleChildScrollView(
-                  scrollDirection: Axis.vertical,
+        body: SingleChildScrollView(
+          child: Stack(
+            children: [
+              Container(
+                decoration: backgroundImage(),
+                child: Container(
+                  decoration: backgroundGradient(),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
@@ -46,7 +46,7 @@ class MovieScreen extends StatelessWidget {
                             color: Colors.amber,
                           ),
                           const SizedBox(width: 10),
-                          Text("$product.score",
+                          Text("${product.score}",
                               style: const TextStyle(color: Colors.white)),
                         ],
                       ),
@@ -54,14 +54,14 @@ class MovieScreen extends StatelessWidget {
                       const MovieSpecs(),
                       const SizedBox(height: 40),
                       Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 40),
+                        padding: const EdgeInsets.only(left: 40),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             const StoryLineHeader(),
                             const SizedBox(height: 20),
                             const Description(),
-                            const SizedBox(height: 20),
+                            const SizedBox(height: 40),
                             const Text(
                               "The Cast",
                               textAlign: TextAlign.start,
@@ -71,24 +71,36 @@ class MovieScreen extends StatelessWidget {
                               ),
                             ),
                             const SizedBox(height: 20),
-                            SingleChildScrollView(
-                              scrollDirection: Axis.horizontal,
-                              child: Actors(product: product),
+                            SizedBox(
+                              height: 120,
+                              child: ListView(
+                                scrollDirection: Axis.horizontal,
+                                children: [
+                                  for (final actor in product.cast)
+                                    ActorBox(actor: actor),
+                                ],
+                              ),
                             ),
-                            const SizedBox(height: 20),
+                            const SizedBox(height: 40),
                             const Text(
                               "Users also Liked",
                               textAlign: TextAlign.start,
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 20,
+                                fontSize: 18,
                               ),
                             ),
                             const SizedBox(height: 20),
-                            SingleChildScrollView(
-                              scrollDirection: Axis.horizontal,
-                              child: Movies(product: product),
-                            )
+                            SizedBox(
+                              height: 250,
+                              child: ListView(
+                                scrollDirection: Axis.horizontal,
+                                children: [
+                                  for (final movie in product.alsoLiked)
+                                    MoviePortrait(movie: movie),
+                                ],
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -96,14 +108,14 @@ class MovieScreen extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-            const SafeArea(
-              child: ReturnButton(),
-            ),
-            const SafeArea(
-              child: FavouriteButton(),
-            )
-          ],
+              const SafeArea(
+                child: ReturnButton(),
+              ),
+              const SafeArea(
+                child: FavouriteButton(),
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -126,7 +138,7 @@ class MovieScreen extends StatelessWidget {
         stops: const [
           0.1,
           0.2,
-          0.61,
+          0.5,
         ],
         colors: [
           Colors.white.withAlpha(20),
@@ -134,44 +146,6 @@ class MovieScreen extends StatelessWidget {
           const Color.fromARGB(255, 28, 33, 59),
         ],
       ),
-    );
-  }
-}
-
-class Movies extends StatelessWidget {
-  const Movies({
-    Key? key,
-    required this.product,
-  }) : super(key: key);
-
-  final Movie product;
-
-  @override
-  Widget build(BuildContext context) {
-    return Wrap(
-      spacing: 20,
-      children: [
-        for (Item movie in product.alsoLiked) MoviePortrait(movie: movie),
-      ],
-    );
-  }
-}
-
-class Actors extends StatelessWidget {
-  const Actors({
-    Key? key,
-    required this.product,
-  }) : super(key: key);
-
-  final Movie product;
-
-  @override
-  Widget build(BuildContext context) {
-    return Wrap(
-      spacing: 20,
-      children: [
-        for (Item actor in product.cast) ActorBox(actor: actor),
-      ],
     );
   }
 }

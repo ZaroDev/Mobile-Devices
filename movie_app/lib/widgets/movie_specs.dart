@@ -17,7 +17,7 @@ class MovieSpecs extends StatelessWidget {
       crossAxisAlignment: WrapCrossAlignment.center,
       children: [
         const Icon(Icons.calendar_month_rounded, color: Colors.white, size: 20),
-        Text("$movie.date", style: textStyle),
+        Text("${movie.date}", style: textStyle),
         Text("|", style: textStyle),
         const Icon(Icons.watch_later_rounded, color: Colors.white, size: 20),
         Text(movie.time, style: textStyle),

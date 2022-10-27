@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/models/movie.dart';
 
-class ActorBox extends StatelessWidget {
-  final Item actor;
-  const ActorBox({
+class MoviePortrait extends StatelessWidget {
+  const MoviePortrait({
     Key? key,
-    required this.actor,
+    required this.movie,
   }) : super(key: key);
+
+  final Item movie;
 
   @override
   Widget build(BuildContext context) {
@@ -15,27 +16,20 @@ class ActorBox extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            width: 80,
-            height: 100,
+            width: 150,
+            height: 200,
+            padding: const EdgeInsets.only(right: 20),
             decoration: BoxDecoration(
               borderRadius: const BorderRadius.all(
                 Radius.circular(10),
               ),
               image: DecorationImage(
-                image: AssetImage(actor.image),
+                image: AssetImage(movie.image),
                 fit: BoxFit.cover,
               ),
             ),
           ),
-          const SizedBox(height: 5),
-          Text(
-            actor.name,
-            style: const TextStyle(
-              color: Colors.white54,
-              fontSize: 10,
-              fontWeight: FontWeight.w100,
-            ),
-          )
+          Text(movie.name, style: const TextStyle(color: Colors.white54)),
         ],
       ),
     );

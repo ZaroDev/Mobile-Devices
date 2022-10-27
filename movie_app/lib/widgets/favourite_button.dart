@@ -10,11 +10,15 @@ class FavouriteButton extends StatelessWidget {
     return const Align(
       alignment: Alignment.topRight,
       child: Padding(
-          padding: EdgeInsets.all(30),
-          child: Icon(
+        padding: EdgeInsets.all(20.0),
+        child: IconButton(
+          icon: Icon(
             Icons.favorite_border,
             color: Colors.white,
-          )),
+          ),
+          onPressed: null,
+        ),
+      ),
     );
   }
 }
