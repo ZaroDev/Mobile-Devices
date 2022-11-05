@@ -9,7 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,24 +25,20 @@ class MyApp extends StatelessWidget {
           time: "2h 17m",
           tags: "Action, adventure",
           cast: [
-            Item(image: 'assets/actors/tom_cruise.jpeg', name: "Tom Cruise"),
-            Item(image: 'assets/actors/val_kilmer.jpeg', name: "Val Kilmer"),
+            Item(image: 'assets/tom_cruise.jpg', name: "Tom Cruise"),
+            Item(image: 'assets/val_kilmer.jpg', name: "Val Kilmer"),
             Item(
-                image: 'assets/actors/jennifer_conelly.jpeg',
-                name: "Jennifer Connely"),
-            Item(
-                image: 'assets/actors/milles_teller.jpg', name: "Miles Teller"),
-            Item(image: 'assets/actors/glen_powell.jpg', name: "Glen Powell"),
-            Item(image: 'assets/actors/jon_hamm.jpg', name: "Jon Hamm"),
-            Item(
-                image: 'assets/actors/monica_barbaro.jpg',
-                name: "Monica Barbaro"),
+                image: 'assets/jennifer_conelly.jpg', name: "Jennifer Connely"),
+            Item(image: 'assets/milles_teller.jpg', name: "Miles Teller"),
+            Item(image: 'assets/glen_powell.jpg', name: "Glen Powell"),
+            Item(image: 'assets/jon_hamm.jpg', name: "Jon Hamm"),
+            Item(image: 'assets/monica_barbaro.jpg', name: "Monica Barbaro"),
           ],
           alsoLiked: [
-            Item(name: "The Batman", image: 'assets/movies/the_batman.jpg'),
-            Item(name: "TopGun", image: 'assets/movies/topgun.jpg'),
-            Item(name: "Spectre", image: 'assets/movies/spectre.jpg'),
-            Item(name: "Bullet Train", image: 'assets/movies/bullet_train.jpg'),
+            Item(name: "The Batman", image: 'assets/the_batman.jpg'),
+            Item(name: "TopGun", image: 'assets/topgun.jpg'),
+            Item(name: "Spectre", image: 'assets/spectre.jpg'),
+            Item(name: "Bullet Train", image: 'assets/bullet_train.jpg'),
           ],
         ),
       ),
