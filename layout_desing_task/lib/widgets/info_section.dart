@@ -34,7 +34,9 @@ class InfoSection extends StatelessWidget {
             Text(
               "Aliqua ad cillum esse voluptate culpa cupidatat."
               "Proident sit fugiat occaecat cillum dolor."
-              "Nisi culpa elit in quis aliquip sit.",
+              "Nisi culpa elit in quis aliquip sit."
+              "Culpa veniam fugiat culpa dolor cillum ipsum minim aliquip aliquip aliqua eu."
+              "Proident anim culpa do est culpa exercitation sunt proident.",
               style: TextStyle(height: 1.4, color: Colors.grey, fontSize: 16),
             ),
             SizedBox(height: 36),
